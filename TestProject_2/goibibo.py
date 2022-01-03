@@ -47,3 +47,14 @@ time.sleep(10)
 driver.find_element(By.XPATH, "//*[@id='root']/div[2]/div/section[1]/div[1]/div/button").send_keys(Keys.ENTER)
 time.sleep(2)
 
+driver.find_element(By.XPATH, "//*[@id='root']/div[2]/div/section[1]/div/div/div[3]/div[2]/div/span").click()
+time.sleep(2)
+
+driver.find_element(By.XPATH, "//*[@id='root']/div[2]/div/section[1]/div/div/div[4]/div[2]/div/span").click()
+time .sleep(2)
+
+driver.find_element(By.XPATH, "//*[@id='root']/div[2]/div/section[2]/div/div/div[2]/div").click()
+time.sleep(2)
+driver.find_element(By.XPATH, "//*[@id='root']/section[1]/section[4]/section/div[1]/div[1]/div/img[1]")
+time.sleep(2)
+driver.execute_script("window.scrollBy(0,500)","")
